@@ -24,7 +24,7 @@ This project details the individual unit design for a **Tetra Pak H80 centrifuga
         * **Disc Stack Design:** Calculates that approximately 29 discs are required and selects Tetra Pak's Encapt polynode disc technology to improve separation efficiency.
         * **Self-Cleaning (CIP) System:** Designs an automated Clean-In-Place (CIP) system using acid, alkali, and sanitizing agents, with a calculated flow rate of 12.45 L/s.
         * **Heat Exchanger:** Details the design of a 15-plate, plate-and-frame heat exchanger used specifically to heat the CIP system's water from $15^{\circ}C$ to $50^{\circ}C$.
-        * **Safety Features:** Specifies key safety components, including a Samson Type 3241 pressure control valve (PCV) [cite: 637][cite_start], a thermal safety switch (TSS) set to activate at $54^{\circ}C$, and a PT100 RTD for precise temperature monitoring>
+        * **Safety Features:** Specifies key safety components, including a Samson Type 3241 pressure control valve (PCV), a thermal safety switch (TSS) set to activate at $54^{\circ}C$, and a PT100 RTD for precise temperature monitoring>
 
 * **3. Optimization and Performance Evaluation**
     * **3.1. Operation Design Limits:** Defines the unit's operational boundaries, including flowrates (7,000 to 80,000 L/hr) and the legal/operational fat content for skim milk (0.01% to 0.3%) 
@@ -35,7 +35,7 @@ This project details the individual unit design for a **Tetra Pak H80 centrifuga
 
 * **4. Mechanical Design**
     * **4.1. Material Selection:** Selects **Grade 304H stainless steel** for the piping and **UNS32750 Super Duplex steel** for the bowl, citing their superior corrosion and thermal resistance>
-    * **4.2. Thickness and Weight of Unit:** Calculates the required wall thickness for the bowl (11.54 mm) and the inlet piping (2.26 mm) based on ASME standards[cite: 1015, 1023]. The total weight of the main components is also calculated>
+    * **4.2. Thickness and Weight of Unit:** Calculates the required wall thickness for the bowl (11.54 mm) and the inlet piping (2.26 mm) based on ASME standards. The total weight of the main components is also calculated>
     * **4.3. Design Procedures and Codes:** Confirms the design adheres to key industry standards: **ASME B31.3** (for piping), **ASME BPVC Section VIII** (for the pressure vessel/bowl), and **3-A Sanitary Standards** (for hygiene)>
     * **4.4. Mechanical Drawings:** Provides simplified side, end, and magnified views of the separator with key dimensions>
 
@@ -44,7 +44,7 @@ This project details the individual unit design for a **Tetra Pak H80 centrifuga
     * **5.2. Control Strategy:** Details the four main control loops (Temperature, Pressure, Level, and Flow) designed to maintain optimal and safe operation. A key finding is the need for both pressure and temperature control on the skim milk outlet to prevent protein denaturation and foaming>
     * **5.3. PID Control:** Explains the Proportional-Integral-Derivative (PID) control algorithm. It compares the **Cohen-Coon** and **Ziegler-Nichols** tuning methods, ultimately selecting the Cohen-Coon method because it is more stable, less aggressive, and better suited for maintaining product quality in this process>
     * **5.4. HAZID:** Presents a Hazard Identification (HAZID) study in a table, identifying potential hazards from process fluid release (e.g., acid spills), utility failure (e.g., electrical), human error, and equipment failure (e.g., pipe rupture)>
-    * **5.5. LOPA:** Conducts a Layer of Protection Analysis (LOPA) for three critical scenarios: seal failure, overheating, and overpressure. [cite_start]The analysis finds that the total Risk Reduction Factor (RRF) for all scenarios (e.g., **21,200 for seal failure**) is well within the company's tolerable risk limit (<10⁶).
+    * **5.5. LOPA:** Conducts a Layer of Protection Analysis (LOPA) for three critical scenarios: seal failure, overheating, and overpressure. The analysis finds that the total Risk Reduction Factor (RRF) for all scenarios (e.g., **21,200 for seal failure**) is well within the company's tolerable risk limit (<10⁶).
     * **5.6. Start-up and Shutdown Procedures:** Provides a step-by-step list for safely starting (including the CIP cycle) and stopping the separator. It emphasizes a gradual reduction of flow to prevent thermal shock to the equipment>
     * **5.7. Cleaning and Maintenance:** Discusses the primary factors requiring maintenance (Fouling, Corrosion, Wear and Tear) and the mitigation methods, such as chemical cleaning protocols, material selection, and component lubrication>
 
